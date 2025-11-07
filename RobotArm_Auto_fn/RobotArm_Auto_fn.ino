@@ -4,8 +4,8 @@
 Adafruit_PWMServoDriver idektep = Adafruit_PWMServoDriver(0x40);
 
 // PWM signal boundaries for servo motors
-#define SERVOMIN  100
-#define SERVOMAX  600
+#define SERVOMIN  155
+#define SERVOMAX  650
 
 int count = 0;              // Variable to count how many times the function runs
 const int maxCount = 10;    // Set the desired number of repetitions
